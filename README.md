@@ -4,24 +4,6 @@
 
 Use the Spambase dataset to classify spam. This data is already parsed down from email to features.
 
-## Tasks
-```markdown
-* [ ] Blank slate
-  * [ ] Create a GitHub repo called `spambase`
-  * [ ] Set up your requirements/virtual environment
-  * [ ] Download the spambase dataset, but do not commit it to your repository
-  * [ ] Create an IPython notebook to write your code and collect your findings
-* [ ] Normal mode
-  * [ ] Load in the data file, doing any cleaning necessary to get usable data
-  * [ ] Subsample the data set into training and test data
-  * [ ] Write code to classify the data into spam/not-spam, making sure that you just use your training data to build your model, and checking your results with your test data
-* [ ] Hard mode
-  * [ ] Try reducing or changing your features in order to get better results
-  * [ ] Find another dataset and break it down into features
-  * [ ] Test your algorthm on the new dataset and compare its performance
-
-```
-
 ## Objectives
 
 ### Learning Objectives
@@ -39,18 +21,6 @@ After completing this assignment, you should be able to:
 * Train your classifier
 * Test your classifier
 
-## Details
-
-### Deliverables
-
-* A Git repo called spambase containing at least:
-  * `README.md` file explaining how to run your project
-  * a `requirements.txt` file
-
-### Requirements  
-
-* No PEP8 or Pyflakes warnings or errors
-
 ## Normal Mode
 
 Go to the UCI Machine Learning repository and [download the Spambase dataset](https://archive.ics.uci.edu/ml/datasets/Spambase). Make sure you [read the documentation for the data](https://archive.ics.uci.edu/ml/machine-learning-databases/spambase/spambase.DOCUMENTATION). This explains what the attributes are in the data file.
@@ -59,8 +29,29 @@ Subsample the data set so 60% is training data and 40% is test data. You can sub
 
 Then write code to classify the data into spam and not-spam, training with your training data and testing on your test data.
 
-## Hard Mode
+<!-- ## Hard Mode
 
 In addition to the normal mode requirements, try reducing or changing your features in order to get better results.
 
-Find another source of spam/not-spam data, break it down into features, and perform the same exercise as above. How well does your algorithm perform on the new data?
+Find another source of spam/not-spam data, break it down into features, and perform the same exercise as above. How well does your algorithm perform on the new data? -->
+
+## To View This Notebook
+Just click on the `spambase.ipynb` file above.
+
+## To Run This Notebook
+### System Requirements / Installation
+
+* You will need to have **python&nbsp;3** installed on your machine. See [python's site](https://www.python.org/) for details.
+
+* Clone this repo onto your machine.
+
+* Go to the UCI Machine Learning repository and [download the Spambase dataset](https://archive.ics.uci.edu/ml/datasets/Spambase).
+
+* You will need to make sure that you have a virtual environment running in the folder that you intend to work from. [See this site for details if you're not familiar.](http://docs.python-guide.org/en/latest/dev/virtualenvs/) **Complete this step before attempting the below.**
+
+* In your command-line program (such as Terminal on Mac&nbsp;OS&nbsp;X), navigate into the newly created repo. By default, this will be called `spambase`. Install the requirements file by runnning **`pip install -r requirements.txt`**.
+
+### Opening the Notebook
+* Using a command-line program, navigate to the folder containing the downloaded file and run the following line: **`ipython notebook spambase.ipynb`**
+
+* **Note:** This will open in a browser window and take over the command-line program's window until you close out of IPython Notebook. If you have closed your browser window, but your command line is still running the notebook, kill the process by pressing `Ctrl+C` or quitting the program entirely.
